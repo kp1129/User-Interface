@@ -28,6 +28,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+/* DELETE THE FOLLOWING RULE BEFORE SUBMISSION */
+* {
+	border: 1px solid red !important;
+}
 body {
 	line-height: 1;
 }
@@ -64,3 +69,98 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+	max-width: 100%;
+}
+
+/* navigation */
+
+nav a {
+	margin: 15px 3%;
+	display: inline-block;
+	color: gray;
+	text-decoration: none;
+}
+
+nav img {
+
+	float: right;
+	margin: 5px 15px;
+}
+
+/* header */
+
+header {
+	margin: 0 10%;
+
+}
+
+header img {
+	display: inline-block;
+	width: 30%;
+	margin-top: 5%;
+	margin-bottom: -25px;
+}
+
+
+
+h1 {
+	font-size: 3.5em;
+	text-align: center;
+	/* margin: 10% 30% 5% 30%;
+	padding: 10px 35px; */
+}
+
+header div {
+	display: inline-block;
+	width: 40%;
+	text-align: center;
+	margin: 0 15% 5% 5%;
+	padding: 60px 15px 20px 15px;
+}
+
+header div a {
+	color: red;
+	margin-bottom: 30%;
+	border: 1px solid gray;
+	padding: 5px 55px;
+}
+
+
+
+/* main content */
+
+/* section div p {
+	display: inline-block;
+	width: 30%;
+}
+
+section div h3 {
+	display: inline-block;
+
+} */
+section {
+	margin: 0 auto;
+	width: 70%;
+	
+}
+.content-one {
+	display: inline-block;
+	width: 25%;
+}
+
+.content-two {
+	display: inline-block;
+	width: 20%;
+}
+
+.middle-img {
+	text-align: center !important;
+}
+
+/* footer */
+footer {
+	text-align: center;
+}
