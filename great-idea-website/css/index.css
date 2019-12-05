@@ -66,16 +66,12 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-/* DELETE THE FOLLOWING RULE BEFORE SUBMISSION */
-* {
-	border: 1px solid purple !important;
-
-}
-
 .main {
 	width: 50%;
 	margin: 0 auto;
 }
+
+/* header */
 
 nav {
 	width: 100%;
@@ -98,9 +94,28 @@ nav div {
 	vertical-align: middle;
 }
 img.logo {
-	display: inline-block;
-	
+	display: inline-block;	
 }
+
+.title {
+	display: inline-block;
+	width: 49%;
+	vertical-align: middle;
+	text-align: center;
+	margin: 40px 0;
+}
+
+.title a {
+	padding: 5px 50px;
+	border: 2px solid gray;
+}
+
+h1 {
+	font-size: 70px;
+	padding-bottom: 20px;
+}
+
+/*  content area */
 
 hr {
 	color: black;
@@ -112,6 +127,15 @@ section {
 	margin: 35px 0;
 }
 
+
+div.middle-img {
+	text-align: center;
+}
+
+img.middle-img {
+	max-width: 100%;
+}
+
 .content-one {
 	display: inline-block;
 	width: 49.5%;
@@ -119,43 +143,12 @@ section {
 
 .content-two {
 	display: inline-block;
-	width: 33%;
+	width: 32.5%;
 }
 
+/* footer */
 
-/*
-
-
-header img {
-	display: inline-block;
-	width: 30%;
-	margin-top: 5%;
-	margin-bottom: -25px;
-}
-
-
-h1 {
-	font-size: 3.5em;
-	text-align: center;
-	
-}
-
-header div {
-	display: inline-block;
-	width: 40%;
-	text-align: center;
-	margin: 0 15% 5% 5%;
-	padding: 60px 15px 20px 15px;
-}
-
-header div a {
-	color: red;
-	margin-bottom: 30%;
-	border: 1px solid gray;
-	padding: 5px 55px;
-}
-
-*/
 footer {
 	text-align: center;
+	padding-bottom: 40px;
 } 
